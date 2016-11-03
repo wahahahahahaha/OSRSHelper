@@ -1,0 +1,28 @@
+Things the program needs to do:
+
+AFK Notifications*:
+	sends a notification when the inventory is EMPTY or ALMOST EMPTY
+	- fishing: if your last inventory slot has been filled.
+	- cooking: if your last kind if raw food has been changed. (requires before-after resources)
+	- smithing: when the last bar has been smelted, either changed or removed (first cannanballs)
+
+Healthcare*:
+	warns the stats of the player to make sure they dont die.
+		- health
+		- prayer
+
+Contextmenu ghost overlay
+	if the mouse is in the inventory area a ghost image appears of where the menu would appear.
+		- needs to disappear if the RMB is pressed and re-appear if the mouse selected/moved to far.
+
+Mousekeys + Guide
+	should calculate the perfect size for mousekeys with the perfect position to be able to drop the most of the item in a row
+		- take different context menu's in consideration.
+			- could be dynamically found with image recognision
+	should also be able to set the size of mousekeys with the press of a button.
+
+*Notifications:
+	- A windows notification(includes visual and auditory clue) <== most likely
+	- flashing window
+	- custom sound
+	- flashing overlay
