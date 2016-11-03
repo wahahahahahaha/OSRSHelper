@@ -126,6 +126,9 @@
     <ClInclude Include="Rect_Utils.h" />
     <ClInclude Include="WindowOverlay.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Features.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
